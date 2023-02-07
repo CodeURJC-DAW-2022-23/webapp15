@@ -22,3 +22,26 @@ Ayuntamiento URJC is a page that provides info about URJC City. You can see the 
 * Activities: id(pk), user id (fk), description, date
 * Votes: id(pk), user id (fk), description, expire date
 * News: id(pk), headline, description, date 
+
+### User permissions
+
+We distinguish between 3 types of user: non-registered users, registered users and administrators.
+
+* Unregistered users: they will be able to see the news along with their descriptions but they will not have administrator permissions nor will they be able to access the votes or the activities
+* Registered users: they will have the same things available as non-registered users, but they will be able to sign up for activities, participate in voting and modify their profile.
+* Administrators: they will be able to add news, votes and activities, delete them and modify their characteristics (name, description, etc.).
+
+### Images 
+
+* Registered users will be able to set a profile image.
+* When an administrator posts a piece of news, it must be accompanied by an image.
+
+### Graphics
+
+* Registered users will be able to see the results of the voting when they have finished
+
+### Complementary technology
+
+* Sending emails to users
+
+### Algorithm or advanced query
